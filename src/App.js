@@ -1,5 +1,5 @@
-import './App.css';
-import Introduction from './Introduction.js';
+
+import Introduction from './Components/Introduction.js';
 import { Router, Route } from 'react-router-dom';
 
 
