@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg-intro-desktop.png");
+}
+
+h1 {
+    color:  white;
+    font-weight: 700;
+    align-items: left;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.msg {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: left;
+    margin-left: 100px;
+}
+
+.head {
+    color: white;
+}
+
+.form {
+    background-color: white;
+}
+
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
+
+.TS {
+    color: grey;
+}

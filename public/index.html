@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link href= "styles.css" rel="stylesheet" type="text/css" />
+  <title>Intro Component with Sign Up Form</title>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+</head>
+<body>>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <main>
+    <section class="learn">
+      <h1>
+        Learn to code by watching others
+      </h1>
+      <p class="msg">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </section>
+
+    <section class="head">
+      <span>Try it free 7 days </span>then $20/mo. thereafter
+    </section>
+
+    <section>
+      <form action="#" id="form">
+        <fieldset>
+          <label>First Name</label>
+          <input type="text" placeholder="First Name" name="fname"/>
+        <div>
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name" name="lname"/>
+        </div>
+        <div>
+        <label>Email Address</label>
+        <input type="text" placeholder="Email Address" name="email"/>
+        </div>
+        <div>
+        <label>Password</label>
+        <input type="password" placeholder="Password" name="pword"/> 
+      </div>  
+        </fieldset>
+    </section>
+
+    <div class="claim">
+      <button>Claim your free trial</button>
+    </div>
+    <div class="TS">
+      <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+    </div>
+  </form>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Zaain</a>.
+    </p>
+  </footer>
+</body>
 </html>
