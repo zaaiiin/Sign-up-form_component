@@ -1,41 +1,165 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
-    background-color: hsl(0, 100%, 74%);
     font-family: 'Poppins', sans-serif;
-    background-image: url("bg-intro-desktop.png");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("bg-intro-desktop.png") no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+    padding: 0px 160px;
+}
+
+section {
+    max-width: 100%;
+    width: 50%;
+}
+
+.learn {
+    color:  white;
+    padding-right: 30px;
 }
 
 h1 {
-    color:  white;
-    font-weight: 700;
-    align-items: left;
-    margin-left: 100px;
-    margin-top: 200px;
+    font-size: 50px;
+    line-height: 56px;
+    margin-bottom: 25px;
 }
 
 .msg {
     color: white;
     font-size: 16px;
-    font-weight: 400;
-    align-items: left;
-    margin-left: 100px;
+    line-height: 25px;
+    opacity: 0.9;
+
 }
 
 .head {
     color: white;
+    background-color: hsl(248, 32%, 49%);
+    width: 90%;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius:8px;
+    padding-right: 30px;
 }
 
-.form {
+.head span {
+    color: #fff;
+    font-weight: 600;
+}
+#form {
     background-color: white;
+    color: black;
+    padding: 30px 30px;
+    border-radius: 8px;
+    line-height: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #efefef;
 }
 
 
 button {
     background-color: hsl(154, 59%, 51%);
     color: white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;    
+    border: 2px solid #efefef;
 }
 
 .TS {
     color: grey;
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.5;
+    margin: auto;
+    line-height: 20px;
+}
+
+.TS span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+@media (max-width: 992px) {
+ 
+main {    
+    padding: 40px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("bg-intro-desktop.png") no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn {
+    text-align: center;
+    padding: 40px 0px 60px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+form div {
+    text-align: center;
+}
+
+.head {
+    padding: 15px 60px;
+    text-align: center;
+}
 }
