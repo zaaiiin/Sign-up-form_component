@@ -1,5 +1,3 @@
-const { isValidDateValue } = require("@testing-library/user-event/dist/utils");
-
 const form = document.getElementById('form');
 
 form.addEventListener('submit', e => {
@@ -50,6 +48,9 @@ function removeError(field){
     formControl.classList.remove('error');
 }
 
-function isValid(email){
+//check this part
 
+function isValid(email){
+  const re = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+  return re.test(String(email).toLowerCase());
 }
