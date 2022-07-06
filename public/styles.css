@@ -111,6 +111,11 @@ form input{
     border-color: hsl(0, 100%, 74%);
 }
 
+.form-control.error small{
+    color:hsl(0, 100%, 74%);
+    opacity: 1;
+}
+
 .form-control.error input::placeholder{
     color:hsl(0, 100%, 74%);
 }
