@@ -92,6 +92,48 @@ form input{
     border: 2px solid #efefef;
 }
 
+.form-control{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-control small {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    text-align: right;
+}
+
+.form-control.error input{
+    color:hsl(0, 100%, 74%);
+    border-color: hsl(0, 100%, 74%);
+}
+
+.form-control.error input::placeholder{
+    color:hsl(0, 100%, 74%);
+}
+
+.form-control img{
+    opacity: 100;
+    position: absolute;
+    top: 29px;
+    right: 25px;
+    opacity: 0;
+}
+
+.form-control.error img{
+    opacity: 1;
+}
+
+.form-control small{
+    opacity: 0;
+}
+
+.form control.error small{
+    opacity: 1;
+}
 
 button {
     background-color: hsl(154, 59%, 51%);
