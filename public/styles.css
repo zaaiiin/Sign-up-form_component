@@ -121,7 +121,6 @@ form input{
 }
 
 .form-control img{
-    opacity: 100;
     position: absolute;
     top: 29px;
     right: 25px;
@@ -136,7 +135,7 @@ form input{
     opacity: 0;
 }
 
-.form control.error small{
+.form-control.error small{
     opacity: 1;
 }
 
