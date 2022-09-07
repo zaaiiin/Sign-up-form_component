@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\dojo-blog"
+		},
+		{
+			"path": "..\\Learnings\\Menu using html and css"
+		},
+		{
+			"path": "..\\Learnings\\HTML"
+		},
+		{
+			"path": "..\\Frontendmentor folders"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "intro-component"
+	}
+}
